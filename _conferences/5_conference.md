@@ -5,7 +5,7 @@ name: eddi-2013
 description: 5th European DDI User Conference (Paris, France)
 permalink: /eddi-2013/
 img: assets/img/eddi-images/eddi-2013.jpg
-importance: 46
+importance: 45
 category: work
 related_publications: true
 ---
