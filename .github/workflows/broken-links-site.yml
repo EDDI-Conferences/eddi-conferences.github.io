@@ -26,7 +26,7 @@ jobs:
           valueFile: "_config.yml"
           changes: |
             {
-              "giscus.repo": "${{ github.repository }}",
+              "giscus.repo": "",
               "baseurl": ""
             }
       - name: Install and Build 🔧
