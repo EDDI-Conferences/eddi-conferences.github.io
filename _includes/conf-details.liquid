@@ -1,0 +1,42 @@
+<div class="col-sm-8 mt-3 mt-md-0">
+    <table class="table-cd table-sm table-borderless table-responsive table-cd-map">
+    {% for eddi in site.data.conferences %}
+        {% if page.name == eddi.name %}
+    
+        <tr>
+            <td class="p-1 pr-2 font-weight-bold">
+                <b>Participants</b>
+            </td>
+            <td class="p-1 pl-2 font-weight-light text">
+                {{ eddi.delegates }}
+            </td>
+        </tr>
+        <tr>
+            <td class="p-1 pr-2 font-weight-bold">
+                <b>Organisations</b>
+            </td>
+            <td class="p-1 pl-2 font-weight-light text">
+                {{ eddi.organisations }}
+            </td>
+        </tr>
+        <tr>
+            <td class="p-1 pr-2 font-weight-bold">
+                <b>Presentations</b>
+            </td>
+            <td class="p-1 pl-2 font-weight-light text">
+                {{ eddi.presentations }}
+            </td>
+        </tr>    
+        <tr>
+            <td class="p-1 pr-2 font-weight-bold">
+                <b>Countries</b>
+            </td>
+            <td class="p-1 pl-2 font-weight-light text">
+                {{ eddi.countries }}
+            </td>
+        </tr>    
+        {% endif %}
+    {% endfor %}
+    
+    </table> 
+</div>

@@ -1,0 +1,54 @@
+  - eddi : eddi-2009
+    name : eddi-2009
+    hostimage : "/assets/img/host-logos/idsc_iza_logo.png"
+    hosts : "IDSC of IZA (Institute for the Study of Labor)"
+    venue : "Deutsche Post DHL and IZA, Bonn"
+    dates : "3 - 4 December 2009"
+    delegates : "68"
+    organisations : "32"
+    presentations : "17"
+    countries : "10"
+
+  - eddi : eddi-2010
+    name : eddi-2010
+    hostimage : "/assets/img/host-logos/centerdata.png"
+    hosts : "CentERdata, DANS, SURF "
+    venue : "SURFfoundation, Utrecht"
+    dates : "6 - 9 December 2010"
+    delegates : "67"
+    organisations : "32"
+    presentations : "20"
+    countries : "14"
+
+  - eddi : eddi-2011
+    name : eddi-2011
+    hostimage : "/assets/img/host-logos/snd.png"
+    hosts : "Swedish National Data Service"
+    venue : "Gothenburg, Sweden"
+    dates : "5 - 6 December 2011"
+    delegates : "75"
+    organisations : "46"
+    presentations : "20"
+    countries : "15"
+
+  - eddi : eddi-2012
+    name : eddi-2012
+    hostimage : "/assets/img/host-logos/nsd.png"
+    hosts : "Norwegian Social Science Data Services"
+    venue : "Bergen, Norway"
+    dates : "3 - 4 December 2012"
+    delegates : "88"
+    organisations : "38"
+    presentations : "35"
+    countries : "18"
+
+  - eddi : eddi-2013
+    name : eddi-2013
+    hostimage : "/assets/img/host-logos/rq.png"
+    hosts : "Réseau Quetelet (French Data Archives for Social Sciences)"
+    venue : "Paris, France"
+    dates : "3 - 4 December 2013"
+    delegates : "93"
+    organisations : "46"
+    presentations : "46"
+    countries : "17"
