@@ -28,7 +28,3 @@ EDDI is the annual conference for users of DDI, a suite of metadata specificatio
 EDDI meets once a year in the first week December, bringing together users of DDI from archives, studies, official statistics, commercial organisations, government and non-governmental organisations.
 
 ---
-
-## EDDI 2025
-
-In 2025 we will be meeting in Budapest and it will be hosted by Research Documentation Centre at the HUN-REN Centre for Social Sciences.

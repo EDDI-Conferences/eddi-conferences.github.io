@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-04-08
+date: 2025-04-09
 inline: true
 related_posts: false
 ---
 
-A place for news and announcements
+Presentations, and tutorials are now available on [Zenodo](https://zenodo.org/communities/eddi2024/)
