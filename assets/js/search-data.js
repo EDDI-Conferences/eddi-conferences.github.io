@@ -67,8 +67,11 @@ ninja.data = [{
           description: "6th European DDI User Conference (Paris, France)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2014/";
-            },},{id: "news-a-place-for-news-and-announcements",
-          title: 'A place for news and announcements',
+            },},{id: "news-presentations-and-tutorials-are-now-available-on-zenodo",
+          title: 'Presentations, and tutorials are now available on Zenodo',
+          description: "",
+          section: "News",},{id: "news-in-2025-we-will-be-meeting-in-budapest-and-it-will-be-hosted-by-research-documentation-centre-at-the-hun-ren-centre-for-social-sciences-more-information",
+          title: 'In 2025 we will be meeting in Budapest and it will be hosted...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
