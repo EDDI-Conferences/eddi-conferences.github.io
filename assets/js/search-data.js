@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-eddi-2025",
           title: "EDDI 2025",
-          description: "17th European DDI User Conference",
+          description: "17th European DDI User Conference (1-5 December 2025)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/_pages/current/";
@@ -71,39 +71,18 @@ ninja.data = [{
           title: 'A place for news and announcements',
           description: "",
           section: "News",},{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/european-ddi.bsky.social", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("mailto:%65%64%64%69%32%35-%70%72%6F%67@%67%6F%6F%67%6C%65%67%72%6F%75%70%73.%63%6F%6D", "_blank");
         },
       },{
       id: 'light-theme',
