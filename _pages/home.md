@@ -2,7 +2,7 @@
 layout: home
 title: Home
 permalink: /
-subtitle:
+subtitle: "Building and supporting the DDI Communnity"
 
 profile:
   align: left
@@ -27,4 +27,9 @@ EDDI is the annual conference for users of DDI, a suite of metadata specificatio
 
 EDDI meets once a year in the first week December, bringing together users of DDI from archives, studies, official statistics, commercial organisations, government and non-governmental organisations.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+-----
+
+## EDDI 2025
+
+In 2025 we will be meeting in Budapest and it will be hosted by Research Documentation Centre at the HUN-REN Centre for Social Sciences.
+

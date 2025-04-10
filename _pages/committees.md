@@ -12,6 +12,8 @@ nav_order: 7
 - Alina Danciu, Center of Socio-Political Data, Sciences Po (CDSP), Paris, France
 - Jon Johnson, CLOSER, UCL Social Research Institute, London, United Kingdom
 
+-----
+
 ### Program Committee
 
 - Ingo Barkow, Swiss Institute for Information Science (SII), University of Applied Sciences, (FHGR), Chur, Switzerland
@@ -24,9 +26,12 @@ nav_order: 7
 - Knut Wenzig, German Institute for Economic Research (DIW Berlin) / German Socio-Economic Panel (SOEP), Berlin, Germany
 - Wolfgang Zenk-Möltgen, Leibniz Institute for the Social Sciences (GESIS), Cologne, Germany
 
+-----
+
 ### Organisation Committee
 
 - Alina Danciu, Center of Socio-Political Data, Sciences Po (CDSP), Paris, France
 - Judit Gárdos, Research Documentation Centre, HUN-REN Centre for Social Sciences,Budapest, Hungary
 - Jon Johnson, CLOSER, UCL Social Research Institute, London, United Kingdom
 - Roza Vajda, Research Documentation Centre, HUN-REN Centre for Social Sciences, Budapest, Hungary
+
