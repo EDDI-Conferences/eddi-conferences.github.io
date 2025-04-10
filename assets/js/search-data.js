@@ -62,6 +62,11 @@ ninja.data = [{
           description: "5th European DDI User Conference (Paris, France)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2013/";
+            },},{id: "conferences-eddi-2014",
+          title: 'EDDI 2014',
+          description: "6th European DDI User Conference (Paris, France)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2014/";
             },},{id: "news-a-place-for-news-and-announcements",
           title: 'A place for news and announcements',
           description: "",
