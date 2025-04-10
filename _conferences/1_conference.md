@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EDDI 2009 
+title: EDDI 2009
 name: eddi-2009
 description: 1st European DDI User Conference (Bonn, Germany)
 permalink: /eddi-2009/
@@ -10,7 +10,6 @@ category: work
 related_publications: true
 ---
 
-
 {% include conf-description.liquid %}
 
 <div class="row justify-content-sm-left">
@@ -18,4 +17,3 @@ related_publications: true
 </div>
 
 {% include conf-details.liquid %}
-

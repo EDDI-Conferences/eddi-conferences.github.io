@@ -21,12 +21,12 @@ nav_order: 7
 - Jon Johnson, CLOSER, UCL Social Research Institute, London, United Kingdom
 - Mari Kleemola, Finnish Social Science Data Archive (FSD), Tampere, Finland
 - Kaia Kulla, Statistics Estonia , Tallin, Estonia
-- Knut Wenzig,  German Institute for Economic Research (DIW Berlin) / German Socio-Economic Panel (SOEP), Berlin, Germany
+- Knut Wenzig, German Institute for Economic Research (DIW Berlin) / German Socio-Economic Panel (SOEP), Berlin, Germany
 - Wolfgang Zenk-Möltgen, Leibniz Institute for the Social Sciences (GESIS), Cologne, Germany
 
 ### Organisation Committee
 
 - Alina Danciu, Center of Socio-Political Data, Sciences Po (CDSP), Paris, France
-- Judit Gárdos, Research Documentation Centre, HUN-REN Centre for Social Sciences,Budapest, Hungary  
+- Judit Gárdos, Research Documentation Centre, HUN-REN Centre for Social Sciences,Budapest, Hungary
 - Jon Johnson, CLOSER, UCL Social Research Institute, London, United Kingdom
 - Roza Vajda, Research Documentation Centre, HUN-REN Centre for Social Sciences, Budapest, Hungary
