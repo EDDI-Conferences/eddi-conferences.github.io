@@ -14,7 +14,7 @@ related_publications: true
 {% include conf-description.liquid %}
 
 <div class="row justify-content-sm-left">
-    <div class="col-sm-2 mt-3 mt-md-0">
+    <div class="col-sm-2 mt-3 mt-md-0"></div>
 </div>
 
 {% include conf-details.liquid %}
