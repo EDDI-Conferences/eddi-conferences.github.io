@@ -1,11 +1,11 @@
 ---
 layout: page
-title: EDDI 2013
-name: eddi-2013
-description: 5th European DDI User Conference (Paris, France)
-permalink: /eddi-2013/
-img: assets/img/eddi-images/eddi-2013.jpg
-importance: 46
+title: EDDI 2014
+name: eddi-2014
+description: 6th European DDI User Conference (Paris, France)
+permalink: /eddi-2014/
+img: assets/img/eddi-images/eddi-2014.jpg
+importance: 45
 category: work
 related_publications: true
 ---

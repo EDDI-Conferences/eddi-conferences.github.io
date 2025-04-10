@@ -52,3 +52,15 @@
     organisations : "46"
     presentations : "46"
     countries : "17"
+
+  - eddi : eddi-2014
+    name : eddi-2014
+    hostimage : "/assets/img/host-logos/closer.png"
+    hosts : "CLOSER"
+    venue : "Institute of Education, London, England"
+    dates : "1 - 5 December 2013"
+    delegates : "110"
+    organisations : "57"
+    presentations : "38"
+    countries : "15"
+    
