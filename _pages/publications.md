@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Presentations, papers, workshop materials from past EDDI Conferences
+description: Presentations, papers and workshop materials from past EDDI Conferences
 nav: true
 nav_order: 10
 ---
