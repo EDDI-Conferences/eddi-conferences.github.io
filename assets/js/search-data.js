@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Presentations, papers, workshop materials from past EDDI Conferences",
+          description: "Presentations, papers and workshop materials from past EDDI Conferences",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
