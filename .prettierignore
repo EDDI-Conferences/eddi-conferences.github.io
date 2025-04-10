@@ -2,10 +2,12 @@
 **/*.min.css
 **/*.min.js
 assets/css/main.scss
+assets/css/jupyter-monokai.css
 assets/js/distillpub/template.v2.js
 assets/js/search/*.js
 assets/js/*.js
 assets/plotly/demo.html
+assets/json/resume.json
 lighthouse_results/**
 _posts/2015-10-20-math.md
 _sass/font-awesome/*.scss
