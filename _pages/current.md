@@ -19,30 +19,30 @@ horizontal: false
 
 Hosts for EDDI 2025 will be the Research Documentation Centre at the HUN-REN Centre for Social Sciences, in Budapest, Hungary.
 
------
+---
 
 ### Provisional Timetable
 
------
+---
 
 ##### Pre-Conference
 
 | :--- | --- |
-| *Call for Papers* | 15 May 2025 |
-| *Deadline for Call for Papers* | 1 September 2025 |
-| *Notification of acceptance* | 25 September 2025 |
-| *Draft Program* | 25 September 2025 |
-| *Conference Registration Open* | 25 September 2025 |
-| *Early Bird Registration Closes* | 3 November 2025 |
-| *Registration closes* | 28 November 2025 |
+| _Call for Papers_ | 15 May 2025 |
+| _Deadline for Call for Papers_ | 1 September 2025 |
+| _Notification of acceptance_ | 25 September 2025 |
+| _Draft Program_ | 25 September 2025 |
+| _Conference Registration Open_ | 25 September 2025 |
+| _Early Bird Registration Closes_ | 3 November 2025 |
+| _Registration closes_ | 28 November 2025 |
 
------
+---
 
 ##### Conference
 
 | :--- | --- |
-| *Workshop /Tutorials* | 1 December 2025 |
-| *Conference Day 1* | 2 December 2025 |
-| *Conference Day 2* | 3 December 2025 |
-| *Side meetings* | 4 December 2025 |
-| *Side meetings* | 5 December 2025 |
+| _Workshop /Tutorials_ | 1 December 2025 |
+| _Conference Day 1_ | 2 December 2025 |
+| _Conference Day 2_ | 3 December 2025 |
+| _Side meetings_ | 4 December 2025 |
+| _Side meetings_ | 5 December 2025 |
