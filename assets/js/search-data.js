@@ -14,7 +14,7 @@ ninja.data = [{
           description: "17th European DDI User Conference (1-5 December 2025)",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/current/";
+            window.location.href = "/current/";
           },
         },{id: "nav-past-conferences",
           title: "Past Conferences",
