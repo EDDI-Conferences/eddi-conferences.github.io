@@ -1,4 +1,4 @@
-- eddi: eddi-2009
+- title: EDDI 2009
   name: eddi-2009
   hostimage: "/assets/img/host-logos/idsc_iza_logo.png"
   hosts: "IDSC of IZA (Institute for the Study of Labor)"
@@ -8,8 +8,9 @@
   organisations: "32"
   presentations: "17"
   countries: "10"
+  program: "/assets/pdf/eddi-2009-program.pdf"
 
-- eddi: eddi-2010
+- title: EDDI 2010
   name: eddi-2010
   hostimage: "/assets/img/host-logos/centerdata.png"
   hosts: "CentERdata, DANS, SURF "
@@ -19,8 +20,9 @@
   organisations: "32"
   presentations: "20"
   countries: "14"
+  program: "/assets/pdf/eddi-2010-program.pdf"
 
-- eddi: eddi-2011
+- title: EDDI 2011
   name: eddi-2011
   hostimage: "/assets/img/host-logos/snd.png"
   hosts: "Swedish National Data Service"
@@ -30,8 +32,9 @@
   organisations: "46"
   presentations: "20"
   countries: "15"
+  program: "/assets/pdf/eddi-2011-program.pdf"
 
-- eddi: eddi-2012
+- title: EDDI 2012
   name: eddi-2012
   hostimage: "/assets/img/host-logos/nsd.png"
   hosts: "Norwegian Social Science Data Services"
@@ -41,8 +44,9 @@
   organisations: "38"
   presentations: "35"
   countries: "18"
+  program: "/assets/pdf/eddi-2012-program.pdf"
 
-- eddi: eddi-2013
+- title: EDDI 2010
   name: eddi-2013
   hostimage: "/assets/img/host-logos/rq.png"
   hosts: "Réseau Quetelet (French Data Archives for Social Sciences)"
@@ -52,14 +56,136 @@
   organisations: "46"
   presentations: "46"
   countries: "17"
+  program: "/assets/pdf/eddi-2013-program.pdf"
 
-- eddi: eddi-2014
+- title: EDDI 2014
   name: eddi-2014
   hostimage: "/assets/img/host-logos/closer.png"
   hosts: "CLOSER"
   venue: "Institute of Education, London, England"
-  dates: "1 - 5 December 2013"
+  dates: "1 - 5 December 2014"
   delegates: "110"
   organisations: "57"
   presentations: "38"
+  countries: "18"
+  program: "/assets/pdf/eddi-2014-program.pdf"
+
+- title: EDDI 2015
+  name: eddi-2015
+  hostimage: "/assets/img/host-logos/stats-denmark.png"
+  hosts: "Statistics Denmark and Danish Data Archive"
+  venue: "University of Copenhagen, Copenhagen, Denmark"
+  dates: "30 November - 4 December 2015"
+  delegates: "83"
+  organisations: "38"
+  presentations: "36"
   countries: "15"
+  program: "/assets/pdf/eddi-2015-program.pdf"
+
+- title: EDDI 2016
+  name: eddi-2016
+  hostimage: "/assets/img/host-logos/gesis.png"
+  hosts: "GESIS - Leibniz Institute for the Social Sciences"
+  venue: "Stadthotel am Römerturm, Cologne. Germany"
+  dates: "5 - 8 December 2016"
+  delegates: "83"
+  organisations: "38"
+  presentations: "36"
+  countries: "15"
+  program: "/assets/pdf/eddi-2016-program.pdf"
+
+- title: EDDI 2017
+  name: eddi-2017
+  hostimage: "/assets/img/host-logos/fors.png"
+  hosts: "FORS - Swiss Centre of Expertise in the Social Sciences"
+  venue: "Mövenpick Hotel, Lausanne, Switzerland"
+  dates: "4 - 7 December 2017"
+  delegates: "60"
+  organisations: "38"
+  presentations: "35"
+  countries: "10"
+  program: "/assets/pdf/eddi-2017-program.pdf"
+
+- title: EDDI 2018
+  name: eddi-2018
+  hostimage: "/assets/img/host-logos/soep.png"
+  hosts: "SOEP - The Socio-Economic Panel - at DIW - German Institute of Economic Research"
+  venue: "Headquarters of Leibniz Association, Berlin, German"
+  dates: "3 - 6 December 2018"
+  delegates: "85"
+  organisations: "47"
+  presentations: "35"
+  countries: "16"
+  program: "/assets/pdf/eddi-2018-program.pdf"
+
+- title: EDDI 2019
+  name: eddi-2019
+  hostimage: "/assets/img/host-logos/fsd.png"
+  hosts: "Finnish Social Science Data Archive, Tampere University, and Statistics Finland"
+  venue: "Tampere University, Finland"
+  dates: "2 - 5 December 2019"
+  delegates: "89"
+  organisations: "31"
+  presentations: "34"
+  countries: "16"
+  program: "/assets/pdf/eddi-2019-program.pdf"
+
+- title: EDDI 2020
+  name: eddi-2020
+  hostimage: "/assets/img/host-logos/cdsp.png"
+  hosts: "Sciences Po, Center for Socio-Political Data (CDSP), CNRS"
+  venue: "Virtual"
+  dates: "1 - 2 December 2020"
+  delegates: "224"
+  organisations: "104"
+  presentations: "30"
+  countries: "32"
+  program: "/assets/pdf/eddi-2020-program.pdf"
+
+- title: EDDI 2021
+  name: eddi-2021
+  hostimage: "/assets/img/host-logos/cdsp.png"
+  hosts: "Sciences Po, Center for Socio-Political Data (CDSP), CNRS"
+  venue: "Virtual"
+  dates: "30 November - 1 December 2021"
+  delegates: "178"
+  organisations: "97"
+  presentations: "25"
+  countries: "33"
+  program: "/assets/pdf/eddi-2021-program.pdf"
+
+- title: EDDI 2022
+  name: eddi-2022
+  hostimage: "/assets/img/host-logos/cdsp.png"
+  hosts: "Sciences Po, Center for Socio-Political Data (CDSP), CNRS"
+  venue: "Sciences Po, Paris"
+  dates: "30 November - 1 December 2022"
+  delegates: "121"
+  organisations: "48"
+  presentations: "45"
+  countries: "18"
+  program: "/assets/pdf/eddi-2022-program.pdf"
+
+- title: EDDI 2023
+  name: eddi-2023
+  hostimage: "/assets/img/host-logos/adp.png"
+  hosts: "ADP. Faculty of Social Sciences, University of Ljubljana"
+  venue: "University of Ljubljana, Ljubljana, Slovenia"
+  dates: "27 November - 1 December 2023"
+  delegates: "93"
+  organisations: "42"
+  presentations: "42"
+  countries: "18"
+  program: "/assets/pdf/eddi-2023-program.pdf"
+
+- title: EDDI 2024
+  name: eddi-2024
+  hostimage: "/assets/img/host-logos/fhgr.png"
+  hosts: "Swiss Institute for Information Science, at the University of Applied Sciences of the Grisons (FHGR)"
+  venue: "University of Applied Sciences of the Grisons, Chur, Switzerland"
+  dates: "2 6 December 2024"
+  delegates: "89"
+  organisations: "44"
+  presentations: "58"
+  countries: "21"
+  program: "/assets/pdf/eddi-2024-program.pdf"

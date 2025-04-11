@@ -3,45 +3,54 @@
         {% for eddi in site.data.conferences %}
             {% if page.name == eddi.name %} 
                 {% assign host_image_path = eddi.hostimage %}
-                {% include figure.liquid loading="eager" path=host_image_path title="idsc-iza image" class="img-fluid rounded z-depth-1" width="80%" %}
+                {% include figure.liquid loading="eager" path=host_image_path title="eddi host image" class="img-fluid rounded z-depth-1" width="100%" %}
             {% endif %}
         {% endfor %}
     </div>
        
-<div class="col-sm-8 mt-3 mt-md-0">
-    <table class="table-cd table-sm table-borderless table-responsive table-cd-map">
-    {% for eddi in site.data.conferences %}
-        {% if page.name == eddi.name %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <table class="table-cd table-sm table-borderless table-responsive table-cd-map">
+        {% for eddi in site.data.conferences %}
+            {% if page.name == eddi.name %}
+                {% assign program_path = eddi.program %}
 
-        <tr>
-            <td class="p-1 pr-2 font-weight-bold">
-                <b>Dates</b>
-            </td>
-            <td class="p-1 pl-2 font-weight-light text">
-                {{ eddi.dates }}
-            </td>
-        </tr>
-                <tr>
-            <td class="p-1 pr-2 font-weight-bold">
-                <b>Venue</b>
-            </td>
-            <td class="p-1 pl-2 font-weight-light text">
-                {{ eddi.venue }}
-            </td>
-        </tr>
-        <tr>
-            <td class="p-1 pr-2 font-weight-bold">
-                <b>Host</b>
-            </td>
-            <td class="p-1 pl-2 font-weight-light text">
-                {{ eddi.hosts }}
-            </td>
-        </tr>        
-        {% endif %}
-    {% endfor %}
-    
-    </table> 
-    <hr>
-</div>
+            <tr>
+                <td class="p-1 pr-2 font-weight-bold">
+                    <b>Dates</b>
+                </td>
+                <td class="p-1 pl-2 font-weight-light text">
+                    {{ eddi.dates }}
+                </td>
+            </tr>
+                    <tr>
+                <td class="p-1 pr-2 font-weight-bold">
+                    <b>Venue</b>
+                </td>
+                <td class="p-1 pl-2 font-weight-light text">
+                    {{ eddi.venue }}
+                </td>
+            </tr>
+            <tr>
+                <td class="p-1 pr-2 font-weight-bold">
+                    <b>Host</b>
+                </td>
+                <td class="p-1 pl-2 font-weight-light text">
+                    {{ eddi.hosts }}
+                </td>
+            </tr>   
+            <tr>
+                <td class="p-1 pr-2 font-weight-bold">
+                    <b>Program</b>
+                </td>
+                <td class="p-1 pl-2 font-weight-light text">
+                <a href=" {{- eddi.program }}">{{eddi.title}}</a>
+                </td>
+            </tr>                   
+            {% endif %}
+        {% endfor %}
+        
+        </table> 
+        <hr>
+    </div>
 
 </div>

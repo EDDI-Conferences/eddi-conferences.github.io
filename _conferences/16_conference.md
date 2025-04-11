@@ -1,10 +1,10 @@
 ---
 layout: page
-title: EDDI 2012
-name: eddi-2012
-description: 4th European DDI User Conference (Bergen)
-permalink: /eddi-2012/
-importance: 47
+title: EDDI 2024
+name: eddi-2024
+description: 16th European DDI User Conference (Chur)
+permalink: /eddi-2024/
+importance: 36
 category: conferences
 related_publications: true
 ---

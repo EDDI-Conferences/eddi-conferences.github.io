@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Previous EDDI Conferences
+title: Past Conferences
 permalink: /conferences/
 description:
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+pagination: true
+display_categories: [conferences]
 horizontal: false
 ---
 

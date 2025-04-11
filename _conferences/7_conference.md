@@ -1,10 +1,10 @@
 ---
 layout: page
-title: EDDI 2012
-name: eddi-2012
-description: 4th European DDI User Conference (Bergen)
-permalink: /eddi-2012/
-importance: 47
+title: EDDI 2015
+name: eddi-2015
+description: 7th European DDI User Conference (Copenhagen)
+permalink: /eddi-2015/
+importance: 44
 category: conferences
 related_publications: true
 ---
