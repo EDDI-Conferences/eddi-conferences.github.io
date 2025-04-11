@@ -13,6 +13,7 @@
         {% for eddi in site.data.conferences %}
             {% if page.name == eddi.name %}
                 {% assign program_path = eddi.program %}
+                {% assign zenodo_path = eddi.zenodo %}
 
             <tr>
                 <td class="p-1 pr-2 font-weight-bold">
@@ -45,8 +46,18 @@
                 <td class="p-1 pl-2 font-weight-light text">
                 <a href=" {{- eddi.program }}">{{eddi.title}}</a>
                 </td>
-            </tr>                   
-            {% endif %}
+            </tr>  
+            {% if eddi.zenodo %}                 
+                <tr>
+                    <td class="p-1 pr-2 font-weight-bold">
+                     <b>Publications</b>
+                    </td>
+                    <td class="p-1 pl-2 font-weight-light text">
+                        <a href=" {{- eddi.zenodo }}">On Zenodo</a>
+                    </td>
+                </tr> 
+            {% endif %}                  
+           {% endif %}
         {% endfor %}
         
         </table> 

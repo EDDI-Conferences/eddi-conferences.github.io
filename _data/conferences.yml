@@ -93,6 +93,7 @@
   presentations: "36"
   countries: "15"
   program: "/assets/pdf/eddi-2016-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi16/
 
 - title: EDDI 2017
   name: eddi-2017
@@ -105,6 +106,7 @@
   presentations: "35"
   countries: "10"
   program: "/assets/pdf/eddi-2017-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi17/
 
 - title: EDDI 2018
   name: eddi-2018
@@ -117,6 +119,7 @@
   presentations: "35"
   countries: "16"
   program: "/assets/pdf/eddi-2018-program.pdf"
+  zenodo: https://zenodo.org/communities/edd18/
 
 - title: EDDI 2019
   name: eddi-2019
@@ -129,6 +132,7 @@
   presentations: "34"
   countries: "16"
   program: "/assets/pdf/eddi-2019-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi19/
 
 - title: EDDI 2020
   name: eddi-2020
@@ -141,6 +145,7 @@
   presentations: "30"
   countries: "32"
   program: "/assets/pdf/eddi-2020-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi20/
 
 - title: EDDI 2021
   name: eddi-2021
@@ -153,6 +158,7 @@
   presentations: "25"
   countries: "33"
   program: "/assets/pdf/eddi-2021-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi21/
 
 - title: EDDI 2022
   name: eddi-2022
@@ -165,6 +171,7 @@
   presentations: "45"
   countries: "18"
   program: "/assets/pdf/eddi-2022-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi2022
 
 - title: EDDI 2023
   name: eddi-2023
@@ -177,6 +184,7 @@
   presentations: "42"
   countries: "18"
   program: "/assets/pdf/eddi-2023-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi2023
 
 - title: EDDI 2024
   name: eddi-2024
@@ -189,3 +197,4 @@
   presentations: "58"
   countries: "21"
   program: "/assets/pdf/eddi-2024-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi2024
