@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/_pages/current/";
           },
-        },{id: "nav-previous-eddi-conferences",
-          title: "Previous EDDI Conferences",
+        },{id: "nav-past-conferences",
+          title: "Past Conferences",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -37,14 +37,49 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "conferences-eddi-2009",
+        },{id: "conferences-eddi-2018",
+          title: 'EDDI 2018',
+          description: "10th European DDI User Conference (Berlin)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2018/";
+            },},{id: "conferences-eddi-2019",
+          title: 'EDDI 2019',
+          description: "11th European DDI User Conference (Tampere)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2019/";
+            },},{id: "conferences-eddi-2020",
+          title: 'EDDI 2020',
+          description: "12th European DDI User Conference (Paris)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2020/";
+            },},{id: "conferences-eddi-2021",
+          title: 'EDDI 2021',
+          description: "13th European DDI User Conference (Paris)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2021/";
+            },},{id: "conferences-eddi-2022",
+          title: 'EDDI 2022',
+          description: "14th European DDI User Conference (Paris)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2022/";
+            },},{id: "conferences-eddi-2023",
+          title: 'EDDI 2023',
+          description: "15th European DDI User Conference (Ljubljana)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2023/";
+            },},{id: "conferences-eddi-2024",
+          title: 'EDDI 2024',
+          description: "16th European DDI User Conference (Chur)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2024/";
+            },},{id: "conferences-eddi-2009",
           title: 'EDDI 2009',
-          description: "1st European DDI User Conference (Bonn, Germany)",
+          description: "1st European DDI User Conference (Bonn)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2009/";
             },},{id: "conferences-eddi-2010",
           title: 'EDDI 2010',
-          description: "2nd European DDI User Conference (Utrecht, Netherlands)",
+          description: "2nd European DDI User Conference (Utrecht)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2010/";
             },},{id: "conferences-eddi-2011",
@@ -54,23 +89,38 @@ ninja.data = [{
               window.location.href = "/eddi-2011/";
             },},{id: "conferences-eddi-2012",
           title: 'EDDI 2012',
-          description: "4th European DDI User Conference (Bergen, Norway)",
+          description: "4th European DDI User Conference (Bergen)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2012/";
             },},{id: "conferences-eddi-2013",
           title: 'EDDI 2013',
-          description: "5th European DDI User Conference (Paris, France)",
+          description: "5th European DDI User Conference (Paris)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2013/";
             },},{id: "conferences-eddi-2014",
           title: 'EDDI 2014',
-          description: "6th European DDI User Conference (Paris, France)",
+          description: "6th European DDI User Conference (London)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2014/";
+            },},{id: "conferences-eddi-2015",
+          title: 'EDDI 2015',
+          description: "7th European DDI User Conference (Copenhagen)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2015/";
+            },},{id: "conferences-eddi-2016",
+          title: 'EDDI 2016',
+          description: "8th European DDI User Conference (Cologne)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2016/";
+            },},{id: "conferences-eddi-2017",
+          title: 'EDDI 2017',
+          description: "9th European DDI User Conference (Lausanne)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2017/";
             },},{id: "news-presentations-and-tutorials-are-now-available-on-zenodo",
           title: 'Presentations, and tutorials are now available on Zenodo',
           description: "",
-          section: "News",},{id: "news-in-2025-we-will-be-meeting-in-budapest-and-it-will-be-hosted-by-research-documentation-centre-at-the-hun-ren-centre-for-social-sciences-more-information",
+          section: "News",},{id: "news-in-2025-we-will-be-meeting-in-budapest-and-it-will-be-hosted-by-the-research-documentation-centre-at-the-hun-ren-centre-for-social-sciences-more-information",
           title: 'In 2025 we will be meeting in Budapest and it will be hosted...',
           description: "",
           section: "News",},{
