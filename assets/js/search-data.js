@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-past-conferences",
           title: "Past Conferences",
-          description: "",
+          description: "Previous EDDI Conferences",
           section: "Navigation",
           handler: () => {
             window.location.href = "/conferences/";
