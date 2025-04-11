@@ -4,7 +4,8 @@ title: EDDI 2025
 description: 17th European DDI User Conference (1-5 December 2025)
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+permalink: /current/
+display_categories: [committees]
 horizontal: false
 ---
 
