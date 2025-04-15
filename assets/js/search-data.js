@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-about",
           title: "About",
-          description: "About EDDI",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/About/";
