@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-about",
+          title: "About",
+          description: "About EDDI",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/About/";
+          },
         },{id: "conferences-eddi-2018",
           title: 'EDDI 2018',
           description: "10th European DDI User Conference (Berlin)",
