@@ -30,7 +30,15 @@ nav_order: 7
 
 ### Organisation Committee
 
+- Nikos Askitas, IDSC, IZA – Institute of Labor Economics, Germany
 - Alina Danciu, Center of Socio-Political Data, Sciences Po (CDSP), Paris, France
-- Judit Gárdos, Research Documentation Centre, HUN-REN Centre for Social Sciences,Budapest, Hungary
-- Jon Johnson, CLOSER, UCL Social Research Institute, London, United Kingdom
-- Roza Vajda, Research Documentation Centre, HUN-REN Centre for Social Sciences, Budapest, Hungary
+- Judit Gárdos, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
+- Júlia Egyed-Gergely, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
+- Anna Horváth, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
+- Miklós Jakab, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
+- Jon Johnson, CLOSER, UCL, Social Research Institute, United Kingdom
+- Boróka Lipka, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
+- Enikő Meiszterics, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
+- Roza Vajda, HUN-REN Research Documentation Centre, Centre for Social Sciences, Budapest, Hungary
+- Timea Venczel, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
+- Gabriella Virág, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary

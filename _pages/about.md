@@ -2,7 +2,6 @@
 layout: page
 permalink: /About/
 title: About
-description: About EDDI
 nav: true
 nav_order: 8
 ---
@@ -16,6 +15,12 @@ EDDI is designed to a provide forum where DDI users from Europe and the world ca
 EDDI includes presentations, poster sessions, and discussion sessions. The philosophy of EDDI is to be an open and inclusive DDI community-building activity. The conference including related meetings usually spans a week in early December in a different European country each year.
 
 The counterpart of EDDI in North America is [NADDI](http://naddiconf.org/), the North American DDI User Conference, modelled on the successful EDDI.
+
+---
+
+## EDDI Conference Code of Conduct
+
+EDDI is dedicated to a positive, safe and harassment-free conference experience in which diverse participants may learn, network and enjoy the company of colleagues in an environment of mutual human respect and regardless of gender, sexual orientation, gender identity, gender expression, disability, physical appearance, ethnicity, religion or other group identity or political beliefs. Our [Code of Conduct](/Conduct) privides more details on how we seek to do that.
 
 ---
 
