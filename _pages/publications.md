@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Presentations, papers and workshop materials from past EDDI Conferences
 nav: true
-nav_order: 10
+nav_order: 7
 ---
 
 <!-- _pages/publications.md -->
