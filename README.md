@@ -6,7 +6,7 @@ Pages are (mostly) written in Markdown. The site uses Jekyll, and is mostly data
 
 The site is built from the main branch, and undergoes a range of checks before deploying. This will catch all sorts of potential errors, it also uses Prettier to enforce style on files, so please check the GitHub actions so see that it has run correctly.
 
-If you are updating via a commit from the commandline, use before you commit:
+If you are updating via a commit from the commandline, use this before you commit (you wil thank us!):
 
 ```
 npx prettier . --check
@@ -14,7 +14,7 @@ npx prettier . --check
 
 ## Updating data drive pages
 
-THe past conferences pages are driven by adding a new entry in \_data/conferences.yml
+The past conferences pages are driven by adding a new entry in \_data/conferences.yml
 
 ```yaml
 - title: EDDI 2024
@@ -43,7 +43,7 @@ curl -H "Accept: application/x-bibtex"  "https://zenodo.org/api/records?communit
 
 ```
 
-It will return in the following format"
+It will return in the following format:
 
 ```
 @misc{gregory_2024_14825677,
