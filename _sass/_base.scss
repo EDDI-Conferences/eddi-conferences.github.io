@@ -296,6 +296,10 @@ ul.task-list input[type="checkbox"] {
     background-size: contain;
   }
   
+  #site-logo > span {
+    display: none
+  }
+  
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
 
