@@ -287,6 +287,16 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
+  .navbar-brand .logo {
+    float: left;
+    width: 178px;
+    height: 100px;
+    margin: 0 0 0 0;
+    background: url(/assets/img/EDDI-LOGO-centred.png) no-repeat 0 0;
+    background-size: contain;
+
+  }
+  
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
 
