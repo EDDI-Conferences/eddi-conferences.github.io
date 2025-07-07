@@ -1,15 +1,10 @@
 <header>
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
-    <div class="container">
-      {% if page.permalink != '/' %}   
-            <div id="site-logo" href="{{ site.baseurl }}/">
-            <span>EDDI</span>
-            </div>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
-      {% endif %}
+    <div class="container"> 
+      <div id="site-logo" href="{{ site.baseurl }}/">
+        <span>EDDI</span>
+      </div>
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"

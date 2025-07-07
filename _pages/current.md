@@ -21,6 +21,18 @@ Hosts for EDDI 2025 will be the Research Documentation Centre at the HUN-REN Cen
 
 ---
 
+### Conference Website
+
+The [Conference Website](https://events.geant.org/event/1879/) is now up and running.
+
+Registration will open in late September, we expect Conference fees to be around €260, and tutorials to be €50 for half-day and €80 for full day.
+
+### Call for Proposals is Open
+
+The list of topics and further information about [submitting a proposal](https://events.geant.org/event/1879/abstracts/)
+
+**Deadline for submission is 1 September 2025.**
+
 ### Provisional Timetable
 
 ---

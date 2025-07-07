@@ -236,7 +236,7 @@ ul.task-list input[type="checkbox"] {
 
     &:hover {
       color: var(--global-theme-color);
-      text-decoration: none;
+      text-decoration: italic;
     }
   }
 }
@@ -289,8 +289,8 @@ ul.task-list input[type="checkbox"] {
 
   #site-logo {
     float: left;
-    width: 600px;
-    height: 50px;
+    width: 400px;
+    height: 35px;
     margin: 0 0 0 0;
     background: url(/assets/img/EDDI-LOGO-wide.png) no-repeat 0 0;
     background-size: contain;
