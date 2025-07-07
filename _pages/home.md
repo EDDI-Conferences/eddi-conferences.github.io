@@ -6,7 +6,7 @@ subtitle: "Building and supporting the DDI Communnity"
 
 profile:
   align: left
-  image: 
+  image: EDDI-LOGO-centred.png
   image_circular: false # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
