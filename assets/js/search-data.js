@@ -127,7 +127,7 @@ ninja.data = [{
             },},{id: "news-presentations-and-tutorials-from-eddi-2024-are-now-available-on-zenodo",
           title: 'Presentations, and tutorials from EDDI 2024 are now available on Zenodo',
           description: "",
-          section: "News",},{id: "news-in-2025-we-will-be-meeting-in-budapest-and-it-will-be-hosted-by-the-research-documentation-centre-at-the-hun-ren-centre-for-social-sciences-more-information",
+          section: "News",},{id: "news-in-2025-we-will-be-meeting-in-budapest-and-it-will-be-hosted-by-the-research-documentation-centre-at-the-elte-centre-for-social-sciences-more-information",
           title: 'In 2025 we will be meeting in Budapest and it will be hosted...',
           description: "",
           section: "News",},{id: "news-call-for-proposals-is-now-open-we-will-be-accepting-submissions-through-1-september-2025-more-information",
