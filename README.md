@@ -1,12 +1,12 @@
 # EDDI User Conference website
 
-This repo is to hold the code for the website and related materials.
+This repo is to hold the code for the website and related materials, [published at](https://eddi-conferences.github.io).
 
 Pages are (mostly) written in Markdown. The site uses Jekyll, and is mostly data driven.
 
 The site is built from the main branch, and undergoes a range of checks before deploying. This will catch all sorts of potential errors, it also uses Prettier to enforce style on files, so please check the GitHub actions so see that it has run correctly.
 
-If you are updating via a commit from the commandline, use this before you commit (you wil thank us!):
+If you are updating via a commit from the command line, use this before you commit (you will thank us!):
 
 ```
 npx prettier . --check
@@ -32,6 +32,10 @@ The past conferences pages are driven by adding a new entry in \_data/conference
 ```
 
 and adding a new page in \_conferences (rename sequentially, copy over previous contents and amend text and references to hostimage etc
+
+## Updating bibliography
+
+Create a new file in /news, based on the last one, called announcement_x.md, (x) should be an increment from the previous file, change the date and add your text.
 
 ## Updating bibliography
 
