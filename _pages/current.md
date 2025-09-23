@@ -11,29 +11,27 @@ horizontal: false
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/host-logos/hen-ren-rdc.png" title="HUN-REN RDC CSS logo" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/host-logos/header-tk-eng.jpg" title="ELTE RDC CSS logo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
     </div>
 </div>
 
-Hosts for EDDI 2025 will be the Research Documentation Centre at the HUN-REN Centre for Social Sciences, in Budapest, Hungary.
+Hosts for EDDI 2025 will be the Research Documentation Centre at the ELTE Centre for Social Sciences, in Budapest, Hungary.
 
 ---
 
-### Conference Website
+#### Conference Website
 
 The [Conference Website](https://events.geant.org/event/1879/) is now up and running.
 
-Registration will open in late September, we expect Conference fees to be around €260, and tutorials to be €50 for half-day and €80 for full day.
+#### Provisional Timetable
 
-### Call for Proposals is Open
+Details of sessions, side meetings and tutorials [is now published ](https://events.geant.org/event/1879/timetable/#20251201.detailed)
 
-The list of topics and further information about [submitting a proposal](https://events.geant.org/event/1879/abstracts/)
+#### Registration
 
-**Deadline for submission is 1 September 2025.**
-
-### Provisional Timetable
+Registration is [open](https://events.geant.org/event/1879/page/55-registration)
 
 ---
 
