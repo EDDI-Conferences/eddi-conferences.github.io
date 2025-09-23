@@ -12,7 +12,7 @@ If you are updating via a commit from the command line, use this before you comm
 npx prettier . --check
 ```
 
-## Updating data drive pages
+## Updating data driven pages
 
 The past conferences pages are driven by adding a new entry in \_data/conferences.yml
 
@@ -33,7 +33,7 @@ The past conferences pages are driven by adding a new entry in \_data/conference
 
 and adding a new page in \_conferences (rename sequentially, copy over previous contents and amend text and references to hostimage etc
 
-## Updating bibliography
+## Updating news announcements
 
 Create a new file in /news, based on the last one, called announcement_x.md, (x) should be an increment from the previous file, change the date and add your text.
 

@@ -17,7 +17,7 @@ horizontal: false
     </div>
 </div>
 
-Hosts for EDDI 2025 will be the Research Documentation Centre at the ELTE Centre for Social Sciences, in Budapest, Hungary.
+Hosts for EDDI 2025 will be the [Research Documentation Centre](https://kdk.tk.elte.hu/en) at the ELTE Centre for Social Sciences, in Budapest, Hungary.
 
 ---
 
