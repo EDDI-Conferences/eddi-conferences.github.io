@@ -1,6 +1,6 @@
 # EDDI User Conference website
 
-This repo is to hold the code for the website and related materials, [published at](https://eddi-conferences.github.io).
+This repo is to hold the code for the website and related materials, published at [eddi-conferences.github.io](https://eddi-conferences.github.io).
 
 Pages are (mostly) written in Markdown. The site uses Jekyll, and is mostly data driven.
 
