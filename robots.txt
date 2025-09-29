@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.eddi-conferences.eu/sitemap.xml
+Sitemap: https://eddi-conferences.github.io/sitemap.xml
