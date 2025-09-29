@@ -11,7 +11,7 @@ EDDI are committed to protecting your personal information and being transparent
 
 EDDI – European DDI User Conference
 
-EDDI is the annual conference for users of DDI (Data Documentation Initiative), a metadata specification for the social, economic, and behavioral sciences. EDDI comprises of the Conference Co-Chairs as main contact persons and the members of the Program Committee and the Local Organization Committee, all respectively appointed for an annual EDDI conference. EDDI is the data controller of the user registries it maintains. We are happy to answer any questions about personal data processing you may have. [Link to contact information page](Committees/)
+EDDI is the annual conference for users of DDI (Data Documentation Initiative), a metadata specification for the social, economic, and behavioral sciences. EDDI comprises of the Conference Co-Chairs as main contact persons and the members of the Program Committee and the Local Organization Committee, all respectively appointed for an annual EDDI conference. EDDI is the data controller of the user registries it maintains. We are happy to answer any questions about personal data processing you may have. [Link to contact information page](/Committees/)
 
 What does EDDI’s privacy policy do?
 
