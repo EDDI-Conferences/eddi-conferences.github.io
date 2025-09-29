@@ -41,10 +41,10 @@ Registration is [open](https://events.geant.org/event/1879/page/55-registration)
 | _Call for Papers_ | 15 May 2025 |
 | _Deadline for Call for Papers_ | 1 September 2025 |
 | _Notification of acceptance_ | 25 September 2025 |
-| _Draft Program_ | 25 September 2025 |
-| _Conference Registration Open_ | 25 September 2025 |
-| _Early Bird Registration Closes_ | 3 November 2025 |
-| _Registration closes_ | 28 November 2025 |
+| _Draft Program_ | 23 September 2025 |
+| _Conference Registration Open_ | 24 September 2025 |
+| _Early Bird Registration Closes_ | 19 November 2025 (23:59 CEST) |
+| _Registration closes_ | 26 November 2025 (23:59 CEST) |
 
 ---
 
@@ -54,5 +54,5 @@ Registration is [open](https://events.geant.org/event/1879/page/55-registration)
 | _Workshop /Tutorials_ | 1 December 2025 |
 | _Conference Day 1_ | 2 December 2025 |
 | _Conference Day 2_ | 3 December 2025 |
-| _Side meetings_ | 4 December 2025 |
-| _Side meetings_ | 5 December 2025 |
+| _Side meetings / Hackathon_ | 4 December 2025 |
+| _Side meetings / Hackathon_ | 5 December 2025 |
