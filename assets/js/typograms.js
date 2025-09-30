@@ -4,9 +4,9 @@
 const ratio = 2;
 
 function grid(width, height) {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
 
-  const vertical = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  const vertical = document.createElementNS("https://www.w3.org/2000/svg", "line");
   vertical.setAttribute("x1", 15);
   vertical.setAttribute("y1", 0);
   vertical.setAttribute("x2", 15);
@@ -14,7 +14,7 @@ function grid(width, height) {
   vertical.setAttribute("class", "center");
   //result.appendChild(vertical);
 
-  const horizontal = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  const horizontal = document.createElementNS("https://www.w3.org/2000/svg", "line");
   horizontal.setAttribute("x1", 0);
   horizontal.setAttribute("y1", 30);
   horizontal.setAttribute("x2", 30);
@@ -23,7 +23,7 @@ function grid(width, height) {
   //result.appendChild(horizontal);
 
   for (let i = 0; i <= width * 30; i += 3) {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", i);
     line.setAttribute("y1", 0);
     line.setAttribute("x2", i);
@@ -33,7 +33,7 @@ function grid(width, height) {
   }
 
   for (let i = 0; i <= height * 54; i += 3) {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 0);
     line.setAttribute("y1", i);
     line.setAttribute("x2", 30 * width);
@@ -48,9 +48,9 @@ function grid(width, height) {
 const glyphs = {};
 
 glyphs["|"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
   if (right == "_") {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", "18");
     line.setAttribute("y1", "51");
     line.setAttribute("x2", "30");
@@ -59,7 +59,7 @@ glyphs["|"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
     result.appendChild(line);
   }
   if (left == "_") {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", "0");
     line.setAttribute("y1", "51");
     line.setAttribute("x2", "12");
@@ -68,7 +68,7 @@ glyphs["|"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
     result.appendChild(line);
   }
   if (topRight == "_") {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", "12");
     line.setAttribute("y1", "-3");
     line.setAttribute("x2", "30");
@@ -77,7 +77,7 @@ glyphs["|"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
     result.appendChild(line);
   }
   if (topLeft == "_") {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", "0");
     line.setAttribute("y1", "-3");
     line.setAttribute("x2", "18");
@@ -118,8 +118,8 @@ glyphs["-"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 glyphs["~"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
   line.setAttribute("x1", "9");
   line.setAttribute("y1", "27");
   line.setAttribute("x2", "24");
@@ -136,8 +136,8 @@ glyphs["_"] = (around) => {
 };
 
 glyphs[":"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
   line.setAttribute("x1", "15");
   line.setAttribute("y1", "0");
   line.setAttribute("x2", "15");
@@ -146,7 +146,7 @@ glyphs[":"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
   line.setAttribute("style", "stroke-dasharray: 15; stroke-dashoffset: 0;");
   result.appendChild(line);
   if (top == "+") {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", "15");
     line.setAttribute("y1", "-24");
     line.setAttribute("x2", "15");
@@ -155,7 +155,7 @@ glyphs[":"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
     result.appendChild(line);
   }
   if (bottom == "+") {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", "15");
     line.setAttribute("y1", "60");
     line.setAttribute("x2", "15");
@@ -167,15 +167,15 @@ glyphs[":"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 glyphs["="] = (around) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const first = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const first = document.createElementNS("https://www.w3.org/2000/svg", "line");
   first.setAttribute("x1", "0");
   first.setAttribute("y1", "21");
   first.setAttribute("x2", "30");
   first.setAttribute("y2", "21");
   first.setAttribute("class", "part");
   result.appendChild(first);
-  const second = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  const second = document.createElementNS("https://www.w3.org/2000/svg", "line");
   second.setAttribute("x1", "0");
   second.setAttribute("y1", "30");
   second.setAttribute("x2", "30");
@@ -186,8 +186,8 @@ glyphs["="] = (around) => {
 };
 
 glyphs["*"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const circle = document.createElementNS("https://www.w3.org/2000/svg", "circle");
   circle.setAttribute("cx", "0");
   circle.setAttribute("cy", "0");
   circle.setAttribute("r", "21");
@@ -212,8 +212,8 @@ glyphs["*"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 glyphs["o"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const circle = document.createElementNS("https://www.w3.org/2000/svg", "circle");
   circle.setAttribute("cx", "0");
   circle.setAttribute("cy", "0");
   circle.setAttribute("r", "18");
@@ -236,7 +236,7 @@ glyphs["o"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   result.appendChild(connectors);
 
-  const inner = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+  const inner = document.createElementNS("https://www.w3.org/2000/svg", "circle");
   inner.setAttribute("cx", "0");
   inner.setAttribute("cy", "0");
   inner.setAttribute("r", "15");
@@ -250,7 +250,7 @@ glyphs["o"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
 glyphs["/"] = (around) => {
   const [top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft] = around;
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
   result.appendChild(
     cross([
       ["|"].includes(top), // top
@@ -304,7 +304,7 @@ glyphs["/"] = (around) => {
 
 glyphs["\\"] = (around) => {
   const [top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft] = around;
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
   result.appendChild(
     cross([
       ["|"].includes(top), // top
@@ -348,8 +348,8 @@ glyphs["\\"] = (around) => {
 };
 
 glyphs["#"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const polygon = document.createElementNS("https://www.w3.org/2000/svg", "polygon");
   const points = [
     [0, 0],
     [42, 0],
@@ -377,7 +377,7 @@ glyphs["#"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 glyphs["+"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
   const r = ["*", "#", "-", "+", "~", ">", ".", "'", "`"].includes(right);
   const l = ["*", "#", "-", "+", "~", "<", ".", "'", "`"].includes(left);
   const t = ["*", "#", "|", "+", ".", "`", "^"].includes(top);
@@ -392,7 +392,7 @@ glyphs["+"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // center
   if ((l || r) && (b || t)) {
-    const center = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+    const center = document.createElementNS("https://www.w3.org/2000/svg", "polygon");
     center.setAttribute("points", "0,0 6,0 6,6 0,6");
     center.setAttribute("transform", "translate(-3 -3) translate(15 27)");
     result.appendChild(center);
@@ -478,11 +478,11 @@ glyphs["+"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
 
   // top-right
   if ((right == "-" || right == "+") && (bottom == "|" || bottom == "'" || bottom == "`" || bottom == "+")) {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -499,7 +499,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // top-left
   if ((left == "-" || left == "+") && (bottom == "|" || bottom == "'" || bottom == "`" || bottom == "+")) {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -516,7 +516,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // top-right
   if ((right == "-" || right == "+") && (top == "|" || top == "." || top == "+")) {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -533,7 +533,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // bottom-left
   if ((left == "-" || left == "+") && (top == "|" || top == "." || top == "+")) {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -550,7 +550,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // bottom right-topRight
   if (right == "-" && topRight == "/") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -579,7 +579,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // right-topLeft
   if (right == "-" && topLeft == "\\") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -594,7 +594,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // left-topRight
   if (left == "-" && topRight == "/") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -609,7 +609,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // bottom left-topLeft
   if (left == "-" && topLeft == "\\") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -638,7 +638,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // bottom-topRight
   if (bottom == "|" && topRight == "/") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -653,7 +653,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // top-bottomRight
   if (top == "|" && bottomRight == "\\") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -668,7 +668,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // top-bottomLeft
   if (top == "|" && bottomLeft == "/") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -683,7 +683,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // bottom-topLeft
   if (bottom == "|" && topLeft == "\\") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -698,7 +698,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // right-bottomLeft
   if (right == "-" && bottomLeft == "/") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -725,7 +725,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // left-bottomRight
   if (left == "-" && bottomRight == "\\") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -753,7 +753,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // left-bottomLeft
   if (left == "-" && bottomLeft == "/") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -780,7 +780,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // right-bottomRight
   if (right == "-" && bottomRight == "\\") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -807,7 +807,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // bottomLeft-bottomRight
   if (bottomLeft == "/" && bottomRight == "\\") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -834,7 +834,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // topLeft-topRight
   if (topLeft == "\\" && topRight == "/") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -861,7 +861,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // topRight-bottomRight
   if (topRight == "/" && bottomRight == "\\") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -888,7 +888,7 @@ glyphs["."] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   // topLeft-bottomLeft
   if (topLeft == "\\" && bottomLeft == "/") {
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS("https://www.w3.org/2000/svg", "path");
     path.setAttribute(
       "d",
       `
@@ -935,8 +935,8 @@ for (const [key, value] of Object.entries(alias)) {
 }
 
 glyphs[">"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const arrow = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const arrow = document.createElementNS("https://www.w3.org/2000/svg", "polygon");
   arrow.setAttribute("points", "0,0 42,18 0,36");
   let reach = 0;
   if (right == "*" || right == "o" || right == "#") {
@@ -945,7 +945,7 @@ glyphs[">"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
   arrow.setAttribute("transform", `translate(${reach} 9)`);
   result.appendChild(arrow);
   return result;
-  const center = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+  const center = document.createElementNS("https://www.w3.org/2000/svg", "polygon");
   center.setAttribute("points", "-3,0 6,0 6,6 -3,6");
   center.setAttribute("transform", "translate(15 24)");
   result.appendChild(center);
@@ -965,8 +965,8 @@ glyphs[">"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 glyphs["<"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const arrow = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const arrow = document.createElementNS("https://www.w3.org/2000/svg", "polygon");
   arrow.setAttribute("points", "0,0 42,18 0,36");
   let reach = 30;
   if (left == "*" || left == "o" || left == "#") {
@@ -976,7 +976,7 @@ glyphs["<"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
   result.appendChild(arrow);
   return result;
   //const center = document.createElementNS(
-  //  "http://www.w3.org/2000/svg", "polygon");
+  //  "https://www.w3.org/2000/svg", "polygon");
   //center.setAttribute("points", "0,0 9,0 9,6 0,6");
   //center.setAttribute("transform", "translate(9 24)");
   //result.appendChild(center);
@@ -996,8 +996,8 @@ glyphs["<"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 glyphs["v"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const arrow = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const arrow = document.createElementNS("https://www.w3.org/2000/svg", "polygon");
   arrow.setAttribute("points", "0,0 42,18 0,36");
   let reach = 36;
   if (bottom == " ") {
@@ -1031,8 +1031,8 @@ glyphs["v"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 glyphs["^"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) => {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const arrow = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const arrow = document.createElementNS("https://www.w3.org/2000/svg", "polygon");
   arrow.setAttribute("points", "0,0 42,18 0,36");
   let reach = 42;
   if (top == "-") {
@@ -1062,10 +1062,10 @@ glyphs["^"] = ([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 };
 
 function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, topLeft]) {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
   if (top) {
     // {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 15);
     line.setAttribute("y1", 0);
     line.setAttribute("x2", 15);
@@ -1076,7 +1076,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   if (right) {
     //{
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 15);
     line.setAttribute("y1", 27);
     line.setAttribute("x2", 30);
@@ -1087,7 +1087,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   if (bottom) {
     //{
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 15);
     line.setAttribute("y1", 27);
     line.setAttribute("x2", 15);
@@ -1098,7 +1098,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   if (left) {
     //{
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 0);
     line.setAttribute("y1", 27);
     line.setAttribute("x2", 15);
@@ -1107,7 +1107,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
     result.appendChild(line);
   }
 
-  const diagonal = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+  const diagonal = document.createElementNS("https://www.w3.org/2000/svg", "polygon");
 
   diagonal.setAttribute(
     "points",
@@ -1123,7 +1123,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   if (topRight) {
     //{
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 30);
     line.setAttribute("y1", 0);
     line.setAttribute("x2", 15);
@@ -1134,7 +1134,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
     // line.setAttribute("stroke-linecap", "square !important");
     result.appendChild(line);
     //const mask = document.createElementNS(
-    //  "http://www.w3.org/2000/svg", "polygon");
+    //  "https://www.w3.org/2000/svg", "polygon");
     //mask.setAttribute("points", "0 0, 15 0, 15 18, 0 18");
     //result.appendChild(mask);
     //console.log("hi");
@@ -1142,7 +1142,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   if (bottomRight) {
     //{
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 15);
     line.setAttribute("y1", 27);
     line.setAttribute("x2", 30);
@@ -1153,7 +1153,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   if (bottomLeft) {
     // {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 15);
     line.setAttribute("y1", 27);
     line.setAttribute("x2", 0);
@@ -1164,7 +1164,7 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 
   if (topLeft) {
     //{
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    const line = document.createElementNS("https://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", 0);
     line.setAttribute("y1", 0);
     line.setAttribute("x2", 15);
@@ -1177,10 +1177,10 @@ function cross([top, right, bottom, left, topRight, bottomRight, bottomLeft, top
 }
 
 function text(char, reserved) {
-  const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "text");
+  const g = document.createElementNS("https://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "text");
   //result.setAttribute("xml:space", "preserve");
-  //result.setAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:space", "preserve");
+  //result.setAttributeNS("https://www.w3.org/XML/1998/namespace", "xml:space", "preserve");
   const value = document.createTextNode(char);
   result.appendChild(value);
   if (reserved) {
@@ -1196,7 +1196,7 @@ function text(char, reserved) {
 }
 
 function render(diagram) {
-  const result = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  const result = document.createElementNS("https://www.w3.org/2000/svg", "g");
 
   for (let y = 0; y < diagram.length; y++) {
     for (let x = 0; x < diagram[y].length; x++) {
@@ -1208,7 +1208,7 @@ function render(diagram) {
 
       let reserved = glyphs[char];
 
-      const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      const g = document.createElementNS("https://www.w3.org/2000/svg", "g");
 
       let str = false;
       for (let i = 0; i < x; i++) {
@@ -1257,7 +1257,7 @@ function create(source, zoom, debug) {
     }
   }
 
-  var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  var svg = document.createElementNS("https://www.w3.org/2000/svg", "svg");
   svg.setAttribute("width", width * 30 * zoom);
   svg.setAttribute("height", height * 54 * zoom);
   svg.setAttribute("debug", debug);
