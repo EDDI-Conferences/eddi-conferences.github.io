@@ -8,13 +8,13 @@ nav_order: 8
 
 EDDI is the annual conference for users of [DDI Alliance](https://ddialliance.org) metadata specifications for the social, demographic, economic, and health sciences.
 
-The conference is run by a [Program Committee](/Committees) of volunteers from the DDI community, under the auspices of the DDI Alliance, and host organisation(s), supported by [GESIS](http://www.gesis.org/).
+The conference is run by a [Program Committee](/Committees) of volunteers from the DDI community, under the auspices of the DDI Alliance, and host organisation(s), supported by [GESIS](https://www.gesis.org/).
 
 EDDI is designed to a provide forum where DDI users from Europe and the world can gather to showcase their work and their progress toward DDI adoption, as well as discuss any questions or challenges they may have about the standards.
 
 EDDI includes presentations, poster sessions, and discussion sessions. The philosophy of EDDI is to be an open and inclusive DDI community-building activity. The conference including related meetings usually spans a week in early December in a different European country each year.
 
-The counterpart of EDDI in North America is [NADDI](http://naddiconf.org/), the North American DDI User Conference, modelled on the successful EDDI.
+The counterpart of EDDI in North America is [NADDI](https://naddiconf.org/), the North American DDI User Conference, modelled on the successful EDDI.
 
 ---
 
