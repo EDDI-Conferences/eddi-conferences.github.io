@@ -44,7 +44,7 @@ Registration is [open](https://events.geant.org/event/1879/page/55-registration)
 | _Draft Program_ | 23 September 2025 |
 | _Conference Registration Open_ | 24 September 2025 |
 | _Early Bird Registration Closes_ | 19 November 2025 (23:59 CEST) |
-| _Registration closes_ | 26 November 2025 (23:59 CEST) |
+| _Registration closes_ | 26 November 2025 (09:59 CEST) |
 
 ---
 
