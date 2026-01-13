@@ -2,7 +2,7 @@
 layout: home
 title: Home
 permalink: /
-subtitle: "Building and supporting the DDI Communnity"
+subtitle: "Building and supporting the DDI Community"
 
 profile:
   align: left
