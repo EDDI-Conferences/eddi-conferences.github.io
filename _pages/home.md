@@ -27,6 +27,6 @@ latest_posts:
 
 EDDI is the annual conference for users of DDI, a suite of metadata specifications for the social, economic, and behavioral sciences.
 
-EDDI meets once a year in the first week December, bringing together users of DDI from archives, studies, official statistics, commercial organisations, government and non-governmental organisations and more.
+EDDI meets once a year in the first week of December, bringing together users of DDI from archives, studies, official statistics, commercial organisations, government and non-governmental organisations and more.
 
 ---
