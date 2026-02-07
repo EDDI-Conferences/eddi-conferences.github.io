@@ -2,7 +2,7 @@
 layout: page
 permalink: /Committees/
 title: Committees
-description: EDDI Committees 2025
+description: EDDI Committees 2026
 nav: true
 nav_order: 7
 ---
@@ -20,9 +20,9 @@ nav_order: 7
 - Alina Danciu, Center of Socio-Political Data, Sciences Po (CDSP), Paris, France
 - Maja Dolinar, Slovenian Social Science Data Archives, University of Ljubljana, Ljubljana, Slovenia
 - Judit Gárdos, Research Documentation Centre, HUN-REN Centre for Social Sciences,Budapest, Hungary
+- Karin van Honacker, State Archives of Belgium, Belgium
 - Jon Johnson, CLOSER, UCL Social Research Institute, London, United Kingdom
 - Mari Kleemola, Finnish Social Science Data Archive (FSD), Tampere, Finland
-- Kaia Kulla, Statistics Estonia , Tallin, Estonia
 - Knut Wenzig, German Institute for Economic Research (DIW Berlin) / German Socio-Economic Panel (SOEP), Berlin, Germany
 - Wolfgang Zenk-Möltgen, Leibniz Institute for the Social Sciences (GESIS), Cologne, Germany
 
@@ -34,6 +34,7 @@ nav_order: 7
 - Alina Danciu, Center of Socio-Political Data, Sciences Po (CDSP), Paris, France
 - Judit Gárdos, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
 - Júlia Egyed-Gergely, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
+- Istvan Gyimes, Social Sciences and Digital Humanities Archive, Belgium
 - Anna Horváth, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
 - Miklós Jakab, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
 - Jon Johnson, CLOSER, UCL, Social Research Institute, United Kingdom

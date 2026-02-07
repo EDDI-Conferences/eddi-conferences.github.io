@@ -191,10 +191,23 @@
   hostimage: "/assets/img/host-logos/fhgr.png"
   hosts: "Swiss Institute for Information Science, at the University of Applied Sciences of the Grisons (FHGR)"
   venue: "University of Applied Sciences of the Grisons, Chur, Switzerland"
-  dates: "2 6 December 2024"
+  dates: "2 - 6 December 2024"
   delegates: "89"
   organisations: "44"
   presentations: "58"
   countries: "21"
   program: "/assets/pdf/eddi-2024-program.pdf"
   zenodo: https://zenodo.org/communities/eddi2024
+
+- title: EDDI 2025
+  name: eddi-2025
+  hostimage: "/assets/img/host-logos/header-tk-eng.jpg"
+  hosts: "Research Documentation Centre at the ELTE Centre for Social Sciences"
+  venue: "ELTE Centre for Social Sciences, Budapest, Hungary"
+  dates: "1 - 5 December 2025"
+  delegates: "102"
+  organisations: "43"
+  presentations: "52"
+  countries: "27"
+  program: "/assets/pdf/eddi-2025-program.pdf"
+  zenodo: https://zenodo.org/communities/eddi2025

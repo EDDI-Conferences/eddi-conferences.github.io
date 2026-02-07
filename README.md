@@ -2,7 +2,7 @@
 
 This repo is to hold the code for the website and related materials, published at [eddi-conferences.github.io](https://eddi-conferences.github.io).
 
-Pages are (mostly) written in Markdown. The site uses Jekyll, and is mostly data driven.
+Pages are (mostly) written in Markdown. The site uses Jekyll, and is mostly data driven. Quick start guide for local use  [Jekyll](https://jekyllrb.com/docs/). 
 
 The site is built from the main branch, and undergoes a range of checks before deploying. This will catch all sorts of potential errors, it also uses Prettier to enforce style on files, so please check the GitHub actions so see that it has run correctly.
 
