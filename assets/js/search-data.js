@@ -9,23 +9,23 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-eddi-2025",
-          title: "EDDI 2025",
-          description: "17th European DDI User Conference (1-5 December 2025)",
+  },{id: "nav-eddi-2026",
+          title: "EDDI 2026",
+          description: "18th European DDI User Conference (30 November - 4 December 2026)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/current/";
           },
         },{id: "nav-past-conferences",
           title: "Past Conferences",
-          description: "Previous EDDI Conferences",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/conferences/";
           },
         },{id: "nav-committees",
           title: "Committees",
-          description: "EDDI Committees 2025",
+          description: "EDDI Committees 2026",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Committees/";
@@ -79,6 +79,11 @@ ninja.data = [{
           description: "16th European DDI User Conference (Chur)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2024/";
+            },},{id: "conferences-eddi-2025",
+          title: 'EDDI 2025',
+          description: "17th European DDI User Conference (Budapest)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2025/";
             },},{id: "conferences-eddi-2009",
           title: 'EDDI 2009',
           description: "1st European DDI User Conference (Bonn)",
@@ -138,6 +143,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-registration-for-eddi-2025-is-now-open",
           title: 'Registration for EDDI 2025 is now open.',
+          description: "",
+          section: "News",},{id: "news-the-18th-european-ddi-conference-will-be-held-in-brussels-from-30-november-to-4-december-2026-hosted-by-the-social-sciences-and-digital-humanities-archive-sodha-at-the-state-archives-of-belgium",
+          title: 'The 18th European DDI Conference will be held in Brussels from 30 November...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
