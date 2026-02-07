@@ -2,7 +2,7 @@
 layout: page
 title: Past Conferences
 permalink: /conferences/
-description: 
+description:
 nav: true
 nav_order: 3
 pagination: true
