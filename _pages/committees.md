@@ -30,16 +30,7 @@ nav_order: 7
 
 ### Organisation Committee
 
-- Nikos Askitas, IDSC, IZA – Institute of Labor Economics, Germany
+- Louise de Bethune, CiTiP KULeuven / Belgian State Archives
 - Alina Danciu, Center of Socio-Political Data, Sciences Po (CDSP), Paris, France
-- Judit Gárdos, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
-- Júlia Egyed-Gergely, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
 - Istvan Gyimes, Social Sciences and Digital Humanities Archive, Belgium
-- Anna Horváth, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
-- Miklós Jakab, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
 - Jon Johnson, CLOSER, UCL, Social Research Institute, United Kingdom
-- Boróka Lipka, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
-- Enikő Meiszterics, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
-- Roza Vajda, HUN-REN Research Documentation Centre, Centre for Social Sciences, Budapest, Hungary
-- Timea Venczel, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
-- Gabriella Virág, HUN-REN Research Documentation Center, Centre for Social Sciences, Hungary
