@@ -17,7 +17,7 @@ horizontal: false
     </div>
 </div>
 
-Hosts for EDDI 2026 will be the Social Sciences and Digital Humanities Archive (SODHA) together with the State Archives of Belgium and BSPO at Vrije Universiteit Brussel), and will be held in Brussels from 30 November - 4 December 2026.
+Hosts for EDDI 2026 will be the Social Sciences and Digital Humanities Archive (SODHA) together with the State Archives of Belgium and BSPO at Vrije Universiteit Brussels), and will be held from 30 November - 4 December 2026.
 
 ---
 
