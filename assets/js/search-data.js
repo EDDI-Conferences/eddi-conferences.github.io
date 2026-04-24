@@ -84,6 +84,11 @@ ninja.data = [{
           description: "17th European DDI User Conference (Budapest)",
           section: "Conferences",handler: () => {
               window.location.href = "/eddi-2025/";
+            },},{id: "conferences-eddi-2026",
+          title: 'EDDI 2026',
+          description: "18th European DDI User Conference (Brussels)",
+          section: "Conferences",handler: () => {
+              window.location.href = "/eddi-2026/";
             },},{id: "conferences-eddi-2009",
           title: 'EDDI 2009',
           description: "1st European DDI User Conference (Bonn)",
@@ -146,6 +151,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-the-18th-european-ddi-conference-will-be-held-in-brussels-from-30-november-to-4-december-2026-hosted-by-the-social-sciences-and-digital-humanities-archive-sodha-at-the-state-archives-of-belgium",
           title: 'The 18th European DDI Conference will be held in Brussels from 30 November...',
+          description: "",
+          section: "News",},{id: "news-registration-is-open-for-the-sodha-eddi-summer-school-archives-x-data-paper-meets-digital-documentation-to-be-held-on-4-7-may-2026-in-brussels",
+          title: 'Registration is open for the SODHA/EDDI Summer School Archives x Data. Paper meets...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
