@@ -211,3 +211,14 @@
   countries: "27"
   program: "/assets/pdf/eddi-2025-program.pdf"
   zenodo: https://zenodo.org/communities/eddi2025
+
+- title: EDDI 2026
+  name: eddi-2026
+  hostimage: "/assets/img/host-logos/sodha-arch-be-bspo-vert.png"
+  hosts: "Social Sciences and Digital Humanities Archive (SODHA) together with the State Archives of Belgium and BSPO at Vrije Universiteit Brussel)"
+  venue: "Vrije Universiteit Brussel, Brussels, Belgium"
+  dates: "30 November - 4 December 2026"
+  delegates: ""
+  organisations: ""
+  presentations: ""
+  countries: ""
