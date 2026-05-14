@@ -155,6 +155,9 @@ ninja.data = [{
           section: "News",},{id: "news-registration-is-open-for-the-sodha-eddi-summer-school-archives-x-data-paper-meets-digital-documentation-to-be-held-on-4-7-may-2026-in-brussels",
           title: 'Registration is open for the SODHA/EDDI Summer School Archives x Data. Paper meets...',
           description: "",
+          section: "News",},{id: "news-the-call-for-proposals-for-eddi-2026-is-now-open",
+          title: 'The Call for Proposals for EDDI 2026 is now open.',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
