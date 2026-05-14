@@ -23,7 +23,7 @@ Hosts for EDDI 2026 will be the Social Sciences and Digital Humanities Archive (
 
 #### Conference Website
 
-The Conference Website will go live in May.
+The [EDDI 2026 Conference Website](https://events.geant.org/e/eddi2026) is now open.
 
 ### Provisional Timetable
 
