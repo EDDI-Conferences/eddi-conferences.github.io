@@ -20,6 +20,7 @@ nav_order: 7
 - Alina Danciu, Center of Socio-Political Data, Sciences Po (CDSP), Paris, France
 - Maja Dolinar, Slovenian Social Science Data Archives, University of Ljubljana, Ljubljana, Slovenia
 - Judit Gárdos, Research Documentation Centre, ELTE Centre for Social Sciences,Budapest, Hungary
+- Istvan Gyimes, Social Sciences and Digital Humanities Archive, Belgium
 - Karin van Honacker, State Archives of Belgium, Belgium
 - Jon Johnson, CLOSER, UCL Social Research Institute, London, United Kingdom
 - Mari Kleemola, Finnish Social Science Data Archive (FSD), Tampere, Finland
