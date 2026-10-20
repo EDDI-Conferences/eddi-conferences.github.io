@@ -158,6 +158,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-call-for-proposals-for-eddi-2026-is-now-open",
           title: 'The Call for Proposals for EDDI 2026 is now open.',
           description: "",
+          section: "News",},{id: "news-the-registration-for-eddi-2026-for-eddi-2026-is-now-open",
+          title: 'The Registration for EDDI 2026 for EDDI 2026 is now open.',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
